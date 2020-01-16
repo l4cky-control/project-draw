@@ -1,1 +1,4 @@
 #!/bin/bash
+sudo echo '#!/bin/bash'>/usr/bin/hello
+sudo echo 'echo Hello!'>>/usr/bin/hello
+sudo chmod +x /usr/bin/hello
